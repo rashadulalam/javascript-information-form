@@ -29,6 +29,10 @@ btn.addEventListener("click", function() {
         document.getElementById("rEmail").innerHTML = email.value;
         document.getElementById("rAddress").innerHTML = address.value;
 
+        // clear input val
+        fullName.value = "";
+        email.value = "";
+        address.value = "";
 
 
     }
